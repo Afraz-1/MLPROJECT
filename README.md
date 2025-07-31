@@ -2,11 +2,11 @@
 
 A complete end-to-end machine learning project that predicts student math scores based on various demographic and academic factors.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project analyzes student performance data to predict math scores using various machine learning algorithms. The system uses student demographics, parental education level, test preparation, and other academic scores to make predictions.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Predict student math scores based on:
 - Gender
@@ -17,7 +17,7 @@ Predict student math scores based on:
 - Reading score
 - Writing score
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
 src/
@@ -32,7 +32,7 @@ src/
 └── utils.py                    # Utility functions
 ```
 
-## 🚀 Features
+##  Features
 
 - **Modular Design**: Well-structured codebase with separate components
 - **Multiple ML Algorithms**: Comparison of 7 different regression models
@@ -42,7 +42,7 @@ src/
 - **Model Persistence**: Save and load trained models
 - **Web Interface Ready**: Flask application structure for deployment
 
-## 🔧 Machine Learning Models
+##  Machine Learning Models
 
 The project compares the following algorithms:
 - **Random Forest Regressor**
@@ -53,7 +53,7 @@ The project compares the following algorithms:
 - **CatBoost Regressor**
 - **AdaBoost Regressor**
 
-## 📈 Data Processing Pipeline
+##  Data Processing Pipeline
 
 1. **Data Ingestion**: Load dataset and split into train/test sets
 2. **Data Transformation**: 
@@ -87,7 +87,7 @@ flask
 dill
 ```
 
-## 📊 Dataset
+##  Dataset
 
 The project uses student performance data with the following features:
 - **gender**: Student's gender
